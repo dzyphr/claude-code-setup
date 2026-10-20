@@ -46,4 +46,4 @@ default security settings:
 
 ## Watch your credits
 
-`./credit-watch.sh`
+`./credits-watch.sh`
