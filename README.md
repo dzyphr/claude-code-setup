@@ -23,62 +23,7 @@ default security settings:
   "permissions": {
     "defaultMode": "default",
     "disableBypassPermissionsMode":Credits:
-{
-  "amount": 3561,
-  "currency": "USD",
-  "balance": {
-    "money": null,
-    "credits": {
-      "amount_minor": 3561,
-      "exponent": 2
-    }
-  },
-  "balance_credits": 35,
-  "amount_without_scoped_credits": 3561,
-  "auto_reload_settings": null,
-  "pending_invoice_amount_cents": null,
-  "last_paid_purchase_cents": null,
-  "expiry_policy_months": null,
-  "tranches": [],
-  "promo_tranches": [
-    {
-      "remaining_amount_minor_units": 3560,
-      "currency": "USD",
-      "expires_at": "2026-09-19T00:00:00Z",
-      "granted_amount_minor_units": 10000,
-      "granted_at": "2026-07-21T04:17:45.649000Z",
-      "remaining": {
-        "money": null,
-        "credits": {
-          "amount_minor": 3560,
-          "exponent": 2
-        }
-      },
-      "granted": {
-        "money": null,
-        "credits": {
-          "amount_minor": 10000,
-          "exponent": 2
-        }
-      },
-      "program_id": "credit_program_v2",
-      "name": null,
-      "id": "980e8b94-1814-4d94-b7a3-c427fb66f87d",
-      "scope": {
-        "kind": "unscoped",
-        "applies_to": []
-      }
-    }
-  ],
-  "next_expires_at": "2026-09-19T00:00:00Z"
-}
-
-5-hour:  49.0%  (resets 22:00 UTC)
-Weekly:  13.0%
-Spent this month: $59.19
-
-
- "disable",
+  "disable",
     "deny": [
       "Bash(git commit:*)",
       "Bash(git push:*)",
