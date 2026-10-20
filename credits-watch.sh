@@ -8,7 +8,7 @@ python3 -m venv ~/.venvs/cookies
 set -u
 
 VENV_PY="$HOME/.venvs/cookies/bin/python"
-REFRESH=600
+REFRESH=60
 
 ORG=$(jq -r '.oauthAccount.organizationUuid // empty' "$HOME/.claude.json" 2>/dev/null)
 if [ -z "$ORG" ]; then
