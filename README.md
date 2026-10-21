@@ -1,6 +1,7 @@
 # Claude Code Setup
 
-Reproducible setup intended to exhaust promotional credits and convert them into vibe coded masterpieces
+Reproducible setup for automatic security and sandboxing 
+
 
 ## `bubblewrap` + `socat` sandboxed for security
 
